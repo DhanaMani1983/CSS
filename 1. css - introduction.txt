@@ -1,0 +1,68 @@
+#############################################
+CSS Introduction
+#############################################
+
+CSS - Cascading Style Sheet
+
+CSS is used to beautify HTML documents 
+
+Why CSS?
+
+HTML with font and color was difficult to read and understand, very difficult to change
+because changes need to be made at different places. Where as with CSS changes can be made
+at one place and applied to HTML document. CSS is easily managable.
+
+
+Adding Styles:
+
+Within Element- With any HTML tag we can add style
+Head Section - Styles can be added in head section of html document 
+External file - Most popular way, where styles are specified in the external file
+Linking external file- <link rel="stylesheet" href="" type-"text/css"/>
+rel is relationship
+
+CSS Levels:
+
+CSS Specs - http://www.w3.org/style/css/
+
+CSS1 - 1996 - Fonts, colors, alignment, spacing
+CSS2 - 2004- Layout, positioning
+CSS3 - Effects, sizing, speech.
+
+Style Rules:
+What CSS declares is a style rule, below whole body section is a rule where body is selector.
+where we specify name value pair background-color is name and gray is value
+
+body{
+   background-color:gray;
+   padding:10px;
+}
+
+www.w3.org/tr/css21/propidx.html
+
+Simple Selector:
+
+Tag selector - HTML tag selector
+ID selector - Can declare id for an element and apply style rule for that particular element with id.
+should declare using #id
+Class Selector - If you want to apply style rule to group of elements use class selector
+should declare using .classname
+
+Multiple selection can be done using comma seperated 
+
+Other Selector:
+
+Descendant selector - Style rule is applied to the last element in reference example Div p{}
+Style is applied to paragraph element within div.
+
+Child selector - Style rule is applied to the first child of the parent example Div>p{}
+Style is applied to first child paragraph within div.
+
+:first-child- First item will be styled.
+
+Attribute selector - Add style to attribute eg p[width]{color:gray;}
+
+Pseudo Class - A:visited{}, A:hover{}
+
+CSS comment- /* */
+
