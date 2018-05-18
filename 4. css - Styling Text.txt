@@ -1,0 +1,40 @@
+#############################################
+CSS Styling Text
+#############################################
+
+Font Collections:
+
+In today's world we want websites to be accessed in all devices like PCs, tablet, laptop, mobile etc
+To accomodate all devices we use font family like serif, sans-serif, cursive, fantasy and monospace
+Serif font family has extra lines in the end for better readability eg: Time new roman
+Sans Serif dont have extra lines in the edges eg: Arial
+Cursive font have cursive writing
+Fantasy font are bold
+Monospace font are similar to type writing font.same space within words
+
+Font Selection:
+
+body{
+font-family:Arial, Helvetica, sans-serif;
+}
+
+Font selection can be specified as comma seperated value where options will be applied from left to right.
+
+font Styling:
+
+Font-Size: set size of font for example:0.8 em means 0.8% of current size.
+Font-Style: Normal, Italic
+Font-weight: bold
+Font-variant:underline, small-caps
+
+size can be specified in absolute mode(in pixels) or in Relative mode(in % or em)
+
+Text Properties:
+
+p{text-indent:10px} first line of paragraph will be idented 10 pixel
+letterspacing - spacing between character
+wordspacing - spacing between words
+text-align - left, right. centre, justify(touches both corners of line)
+Line-height - distance from top of line to top of next line
+
+

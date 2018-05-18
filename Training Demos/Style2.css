@@ -1,0 +1,40 @@
+
+div{
+background-color : green;	
+}
+
+body > div{
+background-color : blue;	
+}
+
+*{
+background-color : red;	
+}
+
+.heading1{
+background-color: yellow;
+}
+
+#heading{
+background-color: pink;
+}
+
+#boxtest{
+width:300px;
+padding:5px;
+border: dotted 1px;
+margin-top:5px;	
+background-color:yellow;
+}
+
+h1{
+margin: 0px 0px 10px 0px;	
+}
+
+li{
+display: inline-block;
+list-item:none;
+width:150px;
+margin:5px;
+background-color:#abc;	
+}

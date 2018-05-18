@@ -1,0 +1,17 @@
+#btnDevelopment{
+	Position:Relative;
+	Top:10px;
+}
+
+#btnTraining{
+	Position:Absolute;
+	Top:100px;
+	Left:100px;
+}
+
+#btnAboutUs{
+	Position:Fixed;
+	Top:200px;
+	Left:100px;
+}
+}

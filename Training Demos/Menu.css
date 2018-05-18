@@ -1,0 +1,29 @@
+*{
+padding:0px;
+margin:0px;	
+}
+
+#menu{
+	margin:50px;	
+}
+
+
+#menu li{
+	display:inline-block;
+	width:75px;
+	background-color:#E0E0D1;
+	text-align:center;
+	border-bottom: solid 2px black;
+}
+
+#menu li a{
+text-decoration:none;	
+}
+
+#menu li:hover{
+background-color: #99C2FF;
+}
+
+#menu li a:visited{
+color:blue;
+}

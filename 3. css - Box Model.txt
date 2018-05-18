@@ -1,0 +1,52 @@
+#############################################
+CSS Cascading and Inheritance
+#############################################
+
+
+Box Model Introduction:
+
+Each block element is equivalent to a box, will display a box.
+we can control through css.
+
+Boxes:
+To inspect a box, right the block element and click inspect and then go to computed
+you will the height and width in inner most box.padiing in the next box, border in the next box
+margin in the next box margin: T R B L
+
+Inline element will not contain box, which can be identified in inspect element as auto * auto, 
+no padding, no border, no margin
+
+Box model involves content (height/width), padding, border, Margin
+
+four sides Top, Right, Bottom, Left
+
+Vertical Margin Collapse:
+
+Sample of Vertical Margin Collapse using list item
+
+When two block items appear sequential, margin between two will collapse when element with highest margin will be picked.
+
+width:
+
+Width is always for the content area, Border, Padding and Margin will be additive.
+
+Display:
+
+Block/Inline/Inline-Block/None
+
+display none will have content in background but visibility will not be there.
+visibility:hidden will make the item invisible, but the placeholder will be available
+display :inline will put items next to each other
+display :inline-block width will be same.
+
+Styling a Menu:
+
+Using Class to style list of items
+
+
+
+
+
+
+
+

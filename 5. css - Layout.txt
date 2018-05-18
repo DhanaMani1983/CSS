@@ -1,0 +1,36 @@
+#############################################
+CSS Layout
+#############################################
+
+Position:
+Static - All inline elements are statically positioned, where next element will start from ending of previou element
+         If line space is available then wrapping happens
+Relative - if you want to move the element from the current position to different position which means + or - from current point
+	   then we can use relative, the next static element will start from its current position so there will be overlap
+Absolute - Postion based on the window including scroll, if the scroll moves aboslute wont change position, next element will use
+	   the static space vacated by the element
+Fixed - Position according to the window, if you scroll the window, element will adjust according to scroll
+
+Float & Clear:
+
+Float : float is use to move the element T R B L and consider it as a block element and make the next element start 
+
+Clear : If you have float element on left or right, if you want to clear next element left or right or both where the element moves to next line of float element.
+
+Two Column Layout:
+
+Top Header - Create seperate div and create its own style rules
+Left Menu/left col - Create Seperate div with float left, width appropriately set
+Right Col - Create width accordingly and set left margin.
+
+
+Three Column Layout:
+
+Top Header - Create seperate div and create its own style rules
+Left Menu/left col - Create Seperate div with float left, width appropriately set
+Right content - Create Create Seperate div with float right, width appropriately set
+Special Offers Column - Set margin on left and right accordingly to place content in the middle
+
+Summary:
+
+

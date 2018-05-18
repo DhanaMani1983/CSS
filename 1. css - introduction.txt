@@ -66,3 +66,28 @@ Pseudo Class - A:visited{}, A:hover{}
 
 CSS comment- /* */
 
+Specifying Property Values:
+
+Style rules are defined as name value pairs, where name is the property and value is the assignment to the property. value can be
+specified as follows
+
+Keywords - thin, thick larger, blue, red green. the before are keywords
+
+Physical measurements - height, width can be specified using physical measurements such as inches, points, pc
+
+Screen measurements - pixels
+
+Relative measurement - if measurements in units is not available or recognisable then specify relative measurements
+% eg 40 % or em - which means relative to current size 1 em = current size 1.2 em = 1.2 * current size
+em is good for using in text in different streams eg desktop, mobile etc
+
+ColorCodes- #rrggbb, rgb(r,g,b) use rgb color picker. 
+
+Font - use font name
+
+Function notation - rgb, url function
+
+
+
+
+

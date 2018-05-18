@@ -1,0 +1,58 @@
+#############################################
+CSS Cascading and Inheritance
+#############################################
+
+Introduction to Cascading
+
+Cascading - Property can be defined in one place and it is applied for element in all place
+
+eg div{} style will be applied to all div in the document.
+
+Introduction to Cascading -Ambiquity
+
+Because of cascading there can be ambiquity which arises.
+
+Cascade:
+
+How ambiguity occurs in cascading?
+
+Each browser will have default stylesheet(least weight)
+
+User stylesheet will have more weightage, where each user will set accessibility in the browser
+
+Styles from different sources
+
+Author stylesheet gets highest weightage.
+<link> - link external style sheet
+<import> - import styles from other style sheet
+
+Ordering rules:
+
+Last rule takes highest precedence
+!important is specified precedence is ignored
+If multiple stylesheets are specified or linked, the style rule in the latest file will be considered.
+
+Inspect element in chrome:
+
+Developer tools are available in all tools
+To inspect an element right click an element and click inspect
+
+Specificity:
+
+*Takes least specificity 
+Tag selection Next level
+Tag Tag selection next level
+Tag.class selection next level
+Id selection Highest level of specificity.
+
+Inheritance:
+
+If the property is set at container level, the propery will be pushed to all members in the child
+
+HTML -> Body -> H1, H2, Div, P, Div ->
+
+Certain properties will not be copied eg borders.
+
+Inheritable:
+
+Font size, Font color, Font family, List item, List style.
